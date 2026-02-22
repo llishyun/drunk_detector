@@ -1,7 +1,8 @@
 # drunk_detector
 code for drunk_detector AI
-- EAR_model.ipynb : 시간에 따른 EAR 비율 추정 모델
-- audio_model.ipynb : 음성 opensmile로 특징 추출 및 예측 모델
-- skin_drunk_detection.ipynb: 피부색 감지 및 예측 모델과 세개의 모델 값 weighted votin
-- data_split.csv : 데이터 split을 위한 정보 csv
-- shape_predictor_68_face_landmarks.dat : EAR 모델을 위해 필요한 dat 파일
+Code for Drunk Detector AI
+- EAR_model.ipynb: Model for estimating the Eye Aspect Ratio (EAR) over time.
+- audio_model.ipynb: Model that extracts audio features using OpenSMILE and performs prediction.
+- skin_drunk_detection.ipynb: Model for skin color detection and prediction, including weighted voting that combines the outputs of the three models.
+- data_split.csv: CSV file containing information for dataset splitting.
+- shape_predictor_68_face_landmarks.dat: Required .dat file for the EAR model (used for facial landmark detection).
